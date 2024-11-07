@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>Анализатор страниц</h1>
+<p>Бесплатно проверяйте сайты на SEO-пригодность</p>
+<form action="/urls" method="post">
+    <input type="text" name="url" placeholder="https://example.com">
+    <input type="submit" value="Проверить">
+</form>
+
+{% endblock %}
